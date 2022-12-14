@@ -2,22 +2,27 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
 html {
     scroll-behavior: smooth; 
-  }
+    }
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+    }
+
 @font-face {
     font-family: 'Prompt';
      src: url("assets/fonts/Prompt/Prompt-Black.ttf");
    }
+
 #container {
     max-width: 1440px;
     margin: 0 auto;
   }
+
 .main-header{
     height: 134px;
     display: flex;
@@ -27,20 +32,21 @@ body {
     justify-content: space-between;
     padding: 25px 10px 25px 25px;
     background: #EDF2EC;
-    font-family: 'Inika', serif;
-    
-}
+    font-family: 'Inika', serif;  
+    }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-  }
+    }
 
 .link_img{
 width: 200px;
 height: 200px;
-}
+    }
+
 .logo_link {
     display: flex;
     text-decoration: none;
@@ -51,7 +57,7 @@ height: 200px;
     left: 109px;
     top: 52px;
     margin-left: 109px;
-}
+    }
 
 .nav {
     display: flex;
@@ -60,7 +66,7 @@ height: 200px;
     height: 50px;
     width: 454px;
     font-size: 15px;
-}
+    }
 .nav_link{
     text-decoration: none;
     font-size: 15px;
@@ -132,6 +138,7 @@ a:hover {
     margin-bottom: 20px;
     font-family: 'Prompt', sans-serif;
 }
+
 .card{
     margin-bottom: 90px; 
 }
@@ -154,7 +161,6 @@ h3{
     line-height: 52px;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 .about_card_text{
     font-size: 22px;
@@ -201,7 +207,6 @@ h3{
 .languages_mb{
     margin-top: 2em;
 }
-
 .footer_link{
     height: 50px;
     font-family: Inika;
