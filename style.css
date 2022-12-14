@@ -1,0 +1,238 @@
+* {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth; 
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+@font-face {
+    font-family: 'Prompt';
+     src: url("assets/fonts/Prompt/Prompt-Black.ttf");
+   }
+
+#container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.main-header{
+    height: 134px;
+    display: flex;
+    color: rgba(1, 2, 1, 1);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px 25px 25px;
+    background: #EDF2EC;
+    font-family: 'Inika', serif;  
+    }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    }
+
+.link_img{
+    width: 200px;
+    height: 200px;
+    }
+
+.logo_link {
+    display: flex;
+    text-decoration: none;
+    font-family: Inika;
+    color: rgba(1, 2, 1, 1);
+    width: 79.17px;
+    height: 21.04px;
+    left: 109px;
+    top: 52px;
+    margin-left: 109px;
+    }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 454px;
+    font-size: 15px;
+    }
+.nav_link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(1, 2, 1, 1);
+    padding: 0 20px;
+}
+a.pointer {
+    cursor: pointer;
+  }
+a:hover {
+    background-color: rgba(224, 103, 51, 1);
+    transform: translateY(-10px);
+  }
+
+.welcome_div{
+    display: flex;
+    background-color: #EDF2EC;
+}
+
+.link_img{
+    width: 250px;
+    height: 250px;
+    margin-left: 55px;
+}
+
+.welcome_unit{
+    display: flex;
+    flex-direction: column;
+    width: 549px;
+    height: 340px;
+    left: 782px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.item_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin-bottom: 1em;
+}
+.about_title{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    color: #717171;
+    margin-bottom: 1em;
+}
+.item_text {
+    width: 525.44px;
+    height: 105px;
+    left: 782px;
+    top: 241px;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+.card_title{
+    font-size: 25px;
+    color: #636060;
+    line-height: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.card{
+    margin-bottom: 90px; 
+}
+.card_text{
+    font-size: 22px;
+    color: #636060;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+h2{
+    font-family: 'Inika', serif;
+}
+h3{
+    font-family: 'Inika', serif;
+}
+.about_card_title{
+    font-size: 25px;
+    color: #636060;
+    line-height: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about_card_text{
+    font-size: 22px;
+    color: #636060;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-family: 'Roboto', sans-serif;
+}
+.year{
+    font-size: 18px;
+    color: #636060
+}
+.about_div{
+    display: flex;
+    justify-content: space-between;
+    height: 479px;
+    margin-bottom: 93px;
+}
+.about_title{
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(73, 154, 24, 1);
+    margin-bottom: 40px;
+    margin-top: 28px;
+}
+.red_words{
+    color: rgba(224, 103, 51, 1);
+}
+.about_text{
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 61px;
+    padding: 5px 5px 45px;
+}
+.languages_mb{
+    margin-top: 2em;
+}
+.footer_link{
+    height: 50px;
+    font-family: Inika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #717171;
+    margin-left: 0;
+    
+}
+
+.nav_footer{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10em;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.nav-item{
+    text-decoration: none;
+}
