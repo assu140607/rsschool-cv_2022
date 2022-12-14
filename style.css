@@ -43,8 +43,8 @@ body {
     }
 
 .link_img{
-width: 200px;
-height: 200px;
+    width: 200px;
+    height: 200px;
     }
 
 .logo_link {
@@ -89,11 +89,13 @@ a:hover {
     display: flex;
     background-color: #EDF2EC;
 }
+
 .link_img{
     width: 250px;
     height: 250px;
     margin-left: 55px;
 }
+
 .welcome_unit{
     display: flex;
     flex-direction: column;
@@ -103,6 +105,7 @@ a:hover {
     text-align: left;
     align-items: flex-start;
 }
+
 .item_title{
     font-style: normal;
     font-weight: 700;
