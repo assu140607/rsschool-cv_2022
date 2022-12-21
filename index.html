@@ -1,66 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Plants</title>
-</head>
-<body>
-    
-   <div class="container">
-        <header class="header">
-            <a href="#" class="logo_link">
-                <img src="Images/logo.svg" alt="logo" class="link_img">
-            </a>
-            <nav class="nav">
-                <a href="#" class="nav_link link_colored">Home</a>
-                <a href="#" class="nav_link">About us</a>
-                <a href="#" class="nav_link">Services</a>
-                <a href="#" class="nav_link">Price</a>
-                <a href="#" class="nav_link">Contact us</a>
-            </nav>
-        </header>
-    <div class="welcom_div">
-        <div class="welcom_section">
-            <div class="welcom_image">
-                <img class = "welcom_img" src="images/leafs.svg" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Plants</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <header class="header">
+                <a href="#" class="logo_link">
+                    <img src="Images/logo.svg" alt="logo" class="link_img">
+                </a>
+                <nav class="nav">
+                    <a href="#" class="nav_link link_colored">Home</a>
+                    <a href="#" class="nav_link">About us</a>
+                    <a href="#" class="nav_link">Services</a>
+                    <a href="#" class="nav_link">Price</a>
+                    <a href="#" class="nav_link">Contact us</a>
+                </nav>
+            </header>
+            <div class="main">
+                <div class="welcome_div">
+                    <div class="welcome_section">
+                        <div class="welcome_image">
+                            <img class="welcome_img" src="images/leafs.svg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="welcome_unit">
+                        <h2 class="item_title">We grow <span
+                                class="colored_word">plants</span>
+                            and give you oxygen</h2>
+                        <p class="item_text">Lorem Ipsum is simply dummy text of
+                            the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever
+                            since the 1500s.</p>
+                        <button href="#" class="item_btn">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="about_div">
+                    <div class="about_section">
+                        <h2 class="about_title">We are <span class="red_words">professional
+                                experienced</span> gardeners</h2>
+                        <p class="about_text">Lorem Ipsum is simply dummy text
+                            of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text
+                            ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five
+                            centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. </p>
+                    </div>
+                    <div class="about_unit">
+                        <div class="about_image">
+                            <img class="about_img" src="Images/houseplant_1.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="service_section">
+                    <div class="services_content">
+                        <div class="service_title">
+                            Services and our projects
+                        </div>
+                        <div class="services_btn">
+                            <button class="service_btn mg">Gardens</button>
+                            <button class="service_btn mg">Lawn</button>
+                            <button class="service_btn">Planting</button>
+                        </div>
+                    </div>
+                    <div class="services grid container">
+                        <div class="items">
+                            <a class="item">
+                                <img src="./Images/first.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Garden care</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                            <a class="item">
+                                <img src="./Images/first_lemon.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Planting</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                            <a class="item">
+                                <img src="./Images/first_watering.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Lawn care</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                            <a class="item">
+                                <img src="./Images/second_row_1.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Planting</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                            <a class="item">
+                                <img src="./Images/second_row_2.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Garden care</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                            <a class="item">
+                                <img src="./Images/3.png"
+                                    alt="image_item"
+                                    class="img_item">
+                                <span class="item_span">Planting</span>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_section">
+                    <div class="prices_wrapper">
+                        <div class="price_unit">
+                           <div class="price_subtitle">Prices</div> 
+                           <div class="prices_item">
+                               <div class="prices_items">
+                                   <div class="price_item">
+                                        <div class="price_text">Basics</div>
+                                        <i class = "icon"></i>
+                                   </div>
+                                   <div class="price_item">
+                                        <div class="price_text">Standard</div>
+                                        <i class = "icon"></i>
+                                    </div>
+                                    <div class="price_item ">
+                                        <div class="price_text">Pro care</div>
+                                        <i class = "icon"></i>
+                                    </div>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="price_subunit">
+                            <p class="price_p">Our best <span class="colored_word">gardeners  </span>are ready to help you</p>
+                            <button class="price_btn">Contact us</button>
+                            <img src="./Images/leafs.png" alt="leafs_img" class="price_img">
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts_section">
+                    <img src="./Images/contact_woman 1.png" alt="contacts_img" class="contacts_img">
+                    <span class="colored_word contacts_span">Contact us</span>
+                    <div class="contacts_container">
+                        <div class="contacts_city">City</div>
+                        <i class = "icon"></i>
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <div class="welcome_unit">
-            <h2 class="item_title">We grow <span class = "colored_word">plants</span> and give you oxygen</h2>
-            <p class="item_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <button href="#" class="item_btn">LEARN MORE</button>
-        </div>
-    </div>
-    <div class="about_div">
-        <div class="about_unit">
-            <h2 class="about_title">We are <span class = "red_words">professional experienced</span> gardeners</h2>
-            <p class="about_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-        </div>
-        <div class="about_section">
-            <div class="about_image">
-                <img class = "about_img" src="Images/houseplant_1.svg" alt="">
+                <footer class="footer">
+                    <div class="footer_content container">
+                        <nav class="nav_footer">
+                            <a href="#" class="footer_link">© 2022</a>
+                            <a href="#" class="footer_link">Github</a>
+                        </nav>
+                        <div class="link_school">
+                            <a href="#" class="school_link">Rolling Scope School</a>
+                        </div>
+                        <div class="social_media">
+                            <a href="#" class="nav-item social"><img
+                                    src="Images/inst 1.svg" alt="fbook"
+                                    class="social_media icon"></a>
+                            <a href="#" class="nav-item social"><img
+                                    src="Images/fb
+                                    1.svg" alt="twitter" class="social_media
+                                    icon"></a>
+                            <a href="#" class="nav-item social"><img
+                                    src="Images/tw
+                                    1.png" alt="insta" class="social_media
+                                    icon"></a>
+                            <a href="#" class="nav-item social"><img
+                                    src="Images/pinterest 1.png" alt="insta"
+                                    class="social_media icon"></a>
+                        </div>
+                    </div>
+                </footer>
             </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="footer_content container">
-        <nav class="nav_footer">
-            <a href="#" class="footer_link">© 2022</a>
-            <a href="#" class="footer_link">Github</a>
-        </nav>
-        <div class="link_school">
-            <a href="#" class="school_link">Rolling Scope School</a>
-        </div>
-        <div class="social_media">
-            <a href="#" class="nav-item social"><img src="Images/inst 1.svg" alt="fbook" class="social_media icon"></a>
-            <a href="#" class="nav-item social"><img src="Images/fb 1.svg" alt="twitter" class="social_media icon"></a>
-            <a href="#" class="nav-item social"><img src="Images/tw 1.png" alt="insta" class="social_media icon"></a>
-            <a href="#" class="nav-item social"><img src="Images/pinterest 1.png" alt="insta" class="social_media icon"></a>
-           </div> 
-        </div>
-    </footer>
-    </div>
-</body>
-</html>
+        </body>
+    </html>
